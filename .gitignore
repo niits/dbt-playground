@@ -3,3 +3,8 @@ target/
 dbt_modules/
 logs/
 .DS_Store
+dbt_packages/
+venv/
+env/
+test.env
+__pycache__
