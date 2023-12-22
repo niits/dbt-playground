@@ -1,0 +1,13 @@
+
+default:
+  outputs:
+    dev:
+      type: bigquery
+      threads: 8
+      method: oauth
+      project: [project]
+      dataset: dbt_[username] # e.g. dbt_alice
+      timeout_seconds: 300
+  target: dev
+
+
