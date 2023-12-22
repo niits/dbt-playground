@@ -1,5 +1,4 @@
-
-default:
+default-bigquery:
   outputs:
     dev:
       type: bigquery
